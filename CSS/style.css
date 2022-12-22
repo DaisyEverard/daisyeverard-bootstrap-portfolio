@@ -1,3 +1,176 @@
-.button:hover {
-    box-shadow: inset;
+.root {
+    --color-black-bg:  rgba(0,0,0, 0.5);
+}
+
+body {
+    width: 100vw; 
+    background:linear-gradient(black, rgb(36, 36, 36));
+}
+
+/* wide scope */
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* hero */
+.jumbotron {
+    height: 500px; 
+    color: white;
+    background-image: url(../Images/Hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    width: 22%;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+/* navbar */
+.navbar {
+  justify-content: center;
+  position: absolute; 
+  height: 20%;
+  background: var(--color-black-bg); 
+}
+
+.navbar .container {
+    width: 40%;
+}
+.navbar .container ul {
+    width: 100%; 
+    justify-content: space-between;
+}
+.navbar li { 
+    margin: 0 10px; 
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.navbar a {
+    color: white;
+    transition:  all 0.3s ease-in-out 0s;
+}
+
+.navbar a:hover {
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,0.8),
+      0 0 20px rgba(255,255,255,0.8);
+    color: white; 
+}
+
+/* masthead */
+.masthead {
+    height: 80%;
+    background: var(--color-black-bg);
+}
+
+.masthead p {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* work */
+
+#work {
+    text-align: center;
+    color:  white; 
+}
+
+#work .row {
+    margin: 10px auto; 
+}
+
+.cardContainer {
+    height: 400px; 
+    margin: 0;
+    padding: 5px; 
+}
+
+.cardContainer .card {
+    height: 100%; 
+    background: none;
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+.card .image-container {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card .btn {
+    background-color: rgb(9, 9, 159);
+    border: 2px solid rgb(9, 9, 159); 
+    transition: all 0.3s ease-in-out 0s;
+}
+.card .btn:hover {
+    background-color: rgb(253 148 0);
+    border: 2px solid rgb(253 148 0);
+    color: black; 
+    box-shadow:  5px 5px rgb(138, 80, 0); 
+}
+
+#landing-page {
+    background-image: url(../Images/misty-forest-tobias-tullius-RhjVGxILcqE-unsplash.jpg);
+}
+#prework {
+    background-image: url(../Images/Notesbooks.jpg);
+}
+#placeholder1 {
+    background-image: url(../Images/placeholder-1.jpg);
+}
+#placeholder2 {
+    background-image: url(../Images/placeholder-2.jpg);
+}
+#placeholder3 {
+    background-image: url(../Images/placeholder-3.jpg);
+}
+#placeholder4 {
+    background-image: url(../Images/placeholder-4.jpg);
+}
+/* skills */
+#skills {
+    background-color: rgb(85, 24, 227);
+    height: 300px; 
+    z-index: 9;
+    margin-bottom: 10px;
+}
+#skills::after {
+    height: 30px;
+    background: linear-gradient(180deg, rgb(85, 24, 227), rgba(9,9,9,0));
+}
+#skills::before {
+    height: 30px;
+    background: linear-gradient(0deg, rgb(85, 24, 227), rgba(9,9,9,0));
+}
+
+/* About/contact */
+#about-contact {
+    background-image: url(../Images/contacts-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+}
+
+#about, #contacts {
+    margin-top: 30px; 
+}
+#about {
+    width: 67%;
+    color: white; 
+}
+#contacts {
+    width: 33%; 
+}
+/* footer */
+footer p {
+    width: fit-content; 
+    color: darkgray; 
 }

@@ -1,4 +1,4 @@
-# Unit 3 Challenge: Code Bootstrap Portfolio
+<!-- # Unit 3 Challenge: Code Bootstrap Portfolio
 
 ## Overview
 
@@ -12,9 +12,9 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
 ## Commits
 
-* Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
+* Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code. -->
 
-* Committing often is a signal to employers that you are actively working on your code and learning.
+<!-- * Committing often is a signal to employers that you are actively working on your code and learning.
 
   * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
 
@@ -30,9 +30,9 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
 1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
 
-2. Clone this repository to your computer.
+2. Clone this repository to your computer. -->
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+<!-- 3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
    
    - Create a folder structure.
 
@@ -44,9 +44,9 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
    - Create an `images` folder.
 
-       - Place all your images in this folder.
+       - Place all your images in this folder. -->
 
-4. Using Bootstrap, recreate your portfolio site with the following items:
+<!-- 4. Using Bootstrap, recreate your portfolio site with the following items:
 
    The website should include the following bootstrap components:
 
@@ -58,8 +58,8 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
   
         - Links should navigate to the appropriate sections 
 
-    - A hero section
-
+    - A hero section -->
+<!-- 
         - A jumbotron featuring your picture, your name, and any other information you'd like to include.
 
     - A work section
@@ -72,9 +72,9 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
         - The description should give a brief overview of the work.
 
-      - Each project will eventually link to your class project work!
-
-    - A skills section
+      - Each project will eventually link to your class project work! -->
+<!-- 
+ A skills section
 
       - List out the skills you expect to learn from the bootcamp.
 
@@ -83,6 +83,7 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
       - An "About Me" section in the same row.
     
     - A footer section.
+     --> 
 
       - All hyperlinks should have a hover effect.
 
