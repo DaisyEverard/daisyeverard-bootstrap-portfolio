@@ -23,11 +23,10 @@
     
      <!-- JUMBOTRON -->
       <div class="jumbotron jumbotron-fluid justify-content-center">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar">
           <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navbar-expand-lg d-flex" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About Me</a>
               </li>
@@ -41,18 +40,18 @@
             </div>
           </div>
         </nav>
-        <!-- <img src="./Images/profile-pic.jpg"> -->
-        <header class="masthead d-flex justify-content-center align-items-center">
+        <header class="masthead d-flex flex-column justify-content-center align-items-center">
           <div class="container d-flex flex-column align-items-center">
             <h1 class="display-4">Daisy Everard</h1>
             <p class="lead">The Portfolio</p>
+            <img src="./Images/profile-pic.jpg" id="profile-pic">
           </div>
         </header>
       </div>
 
       <!-- WORK -->
       <!-- Row 1 - featured/fill -->
-      <section class=".fluid-container" id="work">
+      <section class="container" id="work">
         <h2>Work</h2>
         <div class="row">
           <div class="cardContainer">
@@ -129,39 +128,53 @@
       
       <!-- SKILLS -->
       <section class=".fluid-container" id="skills">
-        <h2>Skills</h2>
-        <p>From this bootcamp i have learned...I will learn... my goal is..</p>
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+          <h2>Skills</h2>
+          <p>At the point of creating this portfolio, I have learned the fundamentals of CSS and HTML 
+            The major aim of this project is the demonstrate and learn about Bootstrap layout. 
+          I have the skills to build a responsive page using custom CSS in additon to external
+             stylesheets such as FontAwesome, Google Fonts, and Bootstrap. 
+          In the future I will learn how to write and incorporate Javascript into a page to make
+             interactive apps which are functional and attractive.
+          My end goal is to get a job in web development. 
+          </p>
+        </div>
       </section>
 
 <!-- ABOUT/CONTACT -->
     <section class=".fluid-container" id="about-contact">
       <div class="row">
-        <div class="col-md-6" id="about">
+        <div class="col-sm col-md-7" id="about">
           <h2>About Me</h2>
+          <p>I'm a Bootcamp student studying front end web development with EdX</p>
         </div>
 
-        <div class="col-md-6" id="contacts">
+        <div class="col-sm col-md-5" id="contacts">
           <h2>Contacts</h2>
             <div class="contact-set">
-              <i class="fa fa-solid fa-envelope"></i>
+              <div class="contact-label">
+                <i class="fa fa-solid fa-envelope"></i>
               <h4>Email:</h4>
-              <p>msdeverard@gmail.com</p>
+              </div>
+              <p id="email">msdeverard@gmail.com</p>
             </div>
 
             <div class="contact-set">
-              <a>
+              <div class="contact-label">
                 <i class="fa fa-brands fa-linkedin"></i>
                 <h4>Linked In</h4>
-                <p></p>
-              </a>
+              </div>
+                <a href="https://www.linkedin.com/in/daisy-everard-7700b625b/">
+                  https://www.linkedin.com/in/daisy-everard-7700b625b/
+                </a>
             </div>
 
             <div class="contact-set">
-              <a>
+              <div class="contact-label">
                 <i class="fa fa-brands fa-github"></i>
                 <h4>GitHub: </h4>
-                <p></p>
-              </a>
+              </div>
+                <a href="https://github.com/daisyeverard/">https://github.com/daisyeverard/</a>
             </div>
         </div>
       </div>

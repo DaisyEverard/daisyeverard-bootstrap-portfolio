@@ -1,5 +1,6 @@
-.root {
+:root {
     --color-black-bg:  rgba(0,0,0, 0.5);
+    --color-blue-main: rgb(9, 9, 159);
 }
 
 body {
@@ -13,7 +14,7 @@ h2 {
 }
 /* hero */
 .jumbotron {
-    height: 500px; 
+    height: 600px; 
     color: white;
     background-image: url(../Images/Hero-bg.jpg);
     background-position: center;
@@ -22,7 +23,7 @@ h2 {
 
 .jumbotron img {
     border-radius: 50%;
-    width: 22%;
+    width: 100%;
     max-height: 250px;
     max-width: 250px;
 }
@@ -36,7 +37,7 @@ h2 {
 }
 
 .navbar .container {
-    width: 40%;
+    width: 400px; 
 }
 .navbar .container ul {
     width: 100%; 
@@ -46,6 +47,7 @@ h2 {
     margin: 0 10px; 
     border-radius: 5px;
     border: 2px solid white; 
+    text-align: center;
 }
 
 .navbar a {
@@ -60,6 +62,7 @@ h2 {
 }
 
 /* masthead */
+
 .masthead {
     height: 80%;
     background: var(--color-black-bg);
@@ -74,10 +77,12 @@ h2 {
 #work {
     text-align: center;
     color:  white; 
+    margin-top: 20px;
+    margin-bottom: 10px; 
 }
 
 #work .row {
-    margin: 10px auto; 
+    margin: 0 auto; 
 }
 
 .cardContainer {
@@ -105,8 +110,8 @@ h2 {
 }
 
 .card .btn {
-    background-color: rgb(9, 9, 159);
-    border: 2px solid rgb(9, 9, 159); 
+    background-color: var(--color-blue-main);
+    border: 2px solid var(--color-blue-main); 
     transition: all 0.3s ease-in-out 0s;
 }
 .card .btn:hover {
@@ -136,38 +141,67 @@ h2 {
 }
 /* skills */
 #skills {
-    background-color: rgb(85, 24, 227);
+    background-color: var(--color-blue-main);
+    color: white;
     height: 300px; 
-    z-index: 9;
-    margin-bottom: 10px;
+    margin: 10 auto;
+    text-align: center;
 }
-#skills::after {
-    height: 30px;
-    background: linear-gradient(180deg, rgb(85, 24, 227), rgba(9,9,9,0));
-}
-#skills::before {
-    height: 30px;
-    background: linear-gradient(0deg, rgb(85, 24, 227), rgba(9,9,9,0));
+
+#skills .container {
+    height: 100%; 
 }
 
 /* About/contact */
 #about-contact {
-    background-image: url(../Images/contacts-bg.jpg);
+    margin-top: 30px;   
+    height: 400px; 
+}
+
+#about, #contacts {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px; 
 }
-
-#about, #contacts {
-    margin-top: 30px; 
-}
 #about {
-    width: 67%;
+    background-image:url(../Images/about-bg.jpg);
     color: white; 
 }
 #contacts {
-    width: 33%; 
+    background-image: url(../Images/contacts-bg.jpg); 
+}
+
+#about > * {
+    margin: 10px 10px; 
+}
+
+#contacts h2 {
+    margin-top: 10px;
+}
+.contact-set {
+    display: flex;
+    flex-direction: column;
+}
+.contact-set i {
+    margin: 0 10px; 
+}
+.contact-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact-set a {
+    text-decoration: none;
+    color: black; 
+}
+.contact-set a:hover {
+    color: var(--color-blue-main); 
+    font-weight: bold;
+}
+
+#email {
+    user-select: all;
 }
 /* footer */
 footer p {
