@@ -4,10 +4,14 @@
 }
 
 body {
-    width: 100vw; 
+    width: 100%; 
     background:linear-gradient(black, rgb(36, 36, 36));
 }
 
+* {
+    margin: 0;
+    padding: 0; 
+}
 /* wide scope */
 h2 {
     font-family: 'Josefin Sans', sans-serif;
@@ -107,6 +111,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 100%;
 }
 
 .card .btn {
@@ -144,7 +149,7 @@ h2 {
     background-color: var(--color-blue-main);
     color: white;
     height: 300px; 
-    margin: 10 auto;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -167,9 +172,11 @@ h2 {
 #about {
     background-image:url(../Images/about-bg.jpg);
     color: white; 
+    max-width: 100%;
 }
 #contacts {
     background-image: url(../Images/contacts-bg.jpg); 
+    max-width: 100%; 
 }
 
 #about > * {
@@ -182,6 +189,7 @@ h2 {
 .contact-set {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .contact-set i {
     margin: 0 10px; 
@@ -190,6 +198,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap; 
 }
 .contact-set a {
     text-decoration: none;
@@ -207,4 +216,5 @@ h2 {
 footer p {
     width: fit-content; 
     color: darkgray; 
+    height: 30px;
 }
