@@ -1,5 +1,7 @@
 # week3-challenge-bootstrap-portfolio
 
+## Link to live site
+
 ## Preview
 
 ## Description
@@ -32,7 +34,9 @@ footer {
 
 2. Horizontal scroll
 
- Other solutions tried
+Removed by changing all fluid-containers into regular containers. 
+
+ Other solutions tried:
  - make all containers fluid-contiainers
  - set max-width for images
  - always set flex-wrap: wrap; 
