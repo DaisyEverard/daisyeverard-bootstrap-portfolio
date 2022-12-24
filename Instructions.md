@@ -85,11 +85,11 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
     - A footer section.
      --> 
 
-      - All hyperlinks should have a hover effect.
+      <!-- - All hyperlinks should have a hover effect.
 
       - All buttons should display a box shadow upon hover.
 
-5. Your Bootstrap solution should minimize use of media queries.
+5. Your Bootstrap solution should minimize use of media queries. -->
 
 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 

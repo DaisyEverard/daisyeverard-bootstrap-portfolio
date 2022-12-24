@@ -160,7 +160,6 @@ h2 {
 /* About/contact */
 #about-contact {
     margin-top: 30px;   
-    height: 400px; 
 }
 
 #about, #contacts {
@@ -213,8 +212,9 @@ h2 {
     user-select: all;
 }
 /* footer */
+
 footer p {
     width: fit-content; 
     color: darkgray; 
-    height: 30px;
+    height: 20px;
 }
