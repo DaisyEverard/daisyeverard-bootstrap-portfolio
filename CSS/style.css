@@ -148,8 +148,8 @@ h2 {
 #skills {
     background-color: var(--color-blue-main);
     color: white;
-    height: 300px; 
     margin: 10px 0;
+    padding: 50px 0; 
     text-align: center;
 }
 
@@ -218,3 +218,4 @@ footer p {
     color: darkgray; 
     height: 20px;
 }
+
