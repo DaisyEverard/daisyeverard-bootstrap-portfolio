@@ -24,7 +24,7 @@ A portfolio created using bootstrap to display and link to other projects I have
 
 ## Issues and Solutions
 
-1. Navbar not displaying properly on small screen. 
+#### 1. Navbar not displaying properly on small screen. 
 
 The #about-contact section contains #about and #contacts which display inline on larger screens, but are on seperate rows on a small screen. Both #about and #contacts have a height of 400px. The #about-contact section also had a height of 400px so, when the sections were on different lines, they were taller than their container and the footer was at the bottom of this smaller container, not at the bottom of the visible content. 
 Solution was to remove height: 400px; from #about-contacts
@@ -38,7 +38,7 @@ footer {
         width:100%;
 }
 
-2. Horizontal scroll
+#### 2. Horizontal scroll
 
 Removed by changing all fluid-containers into regular containers. 
 
@@ -47,7 +47,7 @@ Removed by changing all fluid-containers into regular containers.
  - set max-width for images
  - always set flex-wrap: wrap; 
 
- 3. Images not loading in live version
+ #### 3. Images not loading in live version
  
  Capitalisation of images and image folder not consistent.
   After changing file names GitHub repo didn't change them so had to remove, push, restore, and push again to reflect changes. 
