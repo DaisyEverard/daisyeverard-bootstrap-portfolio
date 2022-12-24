@@ -42,6 +42,8 @@ Removed by changing all fluid-containers into regular containers.
  - always set flex-wrap: wrap; 
 
  3. Images not loading in live version
+ 
+ capitalisation of images and image folder not consistent. After changing file names GitHub repo didn't change them so had to remove, push, restore, and push again to reflect changes. 
 
  ## Acknowledgements
 
