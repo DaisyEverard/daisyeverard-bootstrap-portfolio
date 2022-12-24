@@ -20,7 +20,7 @@ h2 {
 .jumbotron {
     height: 600px; 
     color: white;
-    background-image: url(../Images/Hero-bg.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -127,22 +127,22 @@ h2 {
 }
 
 #landing-page {
-    background-image: url(../Images/misty-forest-tobias-tullius-RhjVGxILcqE-unsplash.jpg);
+    background-image: url(../images/misty-forest-tobias-tullius-RhjVGxILcqE-unsplash.jpg);
 }
 #prework {
-    background-image: url(../Images/Notesbooks.jpg);
+    background-image: url(../images/notesbooks.jpg);
 }
 #placeholder1 {
-    background-image: url(../Images/placeholder-1.jpg);
+    background-image: url(../images/placeholder-1.jpg);
 }
 #placeholder2 {
-    background-image: url(../Images/placeholder-2.jpg);
+    background-image: url(../images/placeholder-2.jpg);
 }
 #placeholder3 {
-    background-image: url(../Images/placeholder-3.jpg);
+    background-image: url(../images/placeholder-3.jpg);
 }
 #placeholder4 {
-    background-image: url(../Images/placeholder-4.jpg);
+    background-image: url(../images/placeholder-4.jpg);
 }
 /* skills */
 #skills {
@@ -169,12 +169,12 @@ h2 {
     height: 400px; 
 }
 #about {
-    background-image:url(../Images/about-bg.jpg);
+    background-image:url(../images/about-bg.jpg);
     color: white; 
     max-width: 100%;
 }
 #contacts {
-    background-image: url(../Images/contacts-bg.jpg); 
+    background-image: url(../images/contacts-bg.jpg); 
     max-width: 100%; 
 }
 

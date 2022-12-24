@@ -41,6 +41,8 @@ Removed by changing all fluid-containers into regular containers.
  - set max-width for images
  - always set flex-wrap: wrap; 
 
+ 3. Images not loading in live version
+
  ## Acknowledgements
 
  Background images from unsplash.com
