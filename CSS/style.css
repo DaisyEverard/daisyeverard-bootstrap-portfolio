@@ -16,6 +16,10 @@ body {
 h2 {
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.fluid-container {
+    overflow-x: hidden;
+}
 /* hero */
 .jumbotron {
     height: 600px; 

@@ -26,26 +26,22 @@ A portfolio created using bootstrap to display and link to other projects I have
 
 #### 1. Navbar not displaying properly on small screen. 
 
-The #about-contact section contains #about and #contacts which display inline on larger screens, but are on seperate rows on a small screen. Both #about and #contacts have a height of 400px. The #about-contact section also had a height of 400px so, when the sections were on different lines, they were taller than their container and the footer was at the bottom of this smaller container, not at the bottom of the visible content. 
-Solution was to remove height: 400px; from #about-contacts
+The `#about-contact` section contains `#about` and `#contacts` which display inline on larger screens, but are on seperate rows on a small screen. Both `#about` and `#contacts` have a height of 400px. The #about-contact section also had a height of 400px so, when the sections were on different lines, they were taller than their container and the footer was at the bottom of this smaller container, not at the bottom of the visible content. 
+Solution was to remove `height: 400px;` from `#about-contacts`
 
 For different situations, one option would be to make a fixed footer that always displays at the bottom of the screen with:
-footer {
-        position:fixed;
-        left:0px;
-        bottom:0px;
-        height:XXpx;
-        width:100%;
-}
+`footer {  position:fixed;  left:0px;  bottom:0px;  height:XXpx;  width:100%;  }`
 
 #### 2. Horizontal scroll
 
-Removed by changing all fluid-containers into regular containers. 
+Current Solution: set
+`.fluid-container { overflow-x: hidden; }`
 
  Other solutions tried:
  - make all containers fluid-contiainers
  - set max-width for images
  - always set flex-wrap: wrap; 
+ - change all fluid-containers to regular containers
 
  #### 3. Images not loading in live version
  
