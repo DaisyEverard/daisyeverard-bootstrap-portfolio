@@ -7,7 +7,7 @@ https://daisyeverard.github.io/week3-challenge-bootstrap-portfolio/
 ## Preview
 
 <p align="center">
-  <img src="./images/preview.png" width="350" alt="screenshot of site">
+  <img src="./images/preview.png" width="500" alt="screenshot of site">
 </p>
 
 ## Description
