@@ -34,14 +34,16 @@ For different situations, one option would be to make a fixed footer that always
 
 #### 2. Horizontal scroll
 
-Current Solution: set
-`.fluid-container { overflow-x: hidden; }`
+Current Solution: set `.row { margin-right: 0px !important; }`
+The margin set by bootstrap on the rows was causing overflow. To override bootstrap the !important tag was necessary. 
 
  Other solutions tried:
  - make all containers fluid-contiainers
  - set max-width for images
  - always set flex-wrap: wrap; 
  - change all fluid-containers to regular containers
+ - set row `max-width:100%; `made it smaller than screen
+ - set `.fluid-container { overflow-x: hidden; }`
 
  #### 3. Images not loading in live version
  
