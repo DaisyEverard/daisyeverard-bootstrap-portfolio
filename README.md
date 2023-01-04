@@ -2,7 +2,7 @@
 
 ## Link to live site
 
-https://daisyeverard.github.io/week3-challenge-bootstrap-portfolio/
+https://daisyeverard.github.io/daisyeverard-bootstrap-portfolio/
 
 ## Preview
 
