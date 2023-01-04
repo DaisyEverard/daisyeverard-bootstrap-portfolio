@@ -1,4 +1,4 @@
-# week3-challenge-bootstrap-portfolio
+# Daisy Everard Bootstrap Portfolio
 
 ## Link to live site
 
