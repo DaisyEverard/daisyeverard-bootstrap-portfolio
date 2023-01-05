@@ -125,6 +125,12 @@ margin-right: 0px !important;
     box-shadow:  5px 5px rgb(138, 80, 0); 
 }
 
+#financial-analysis {
+  background-image: url(../images/financial-bg.jpg);
+}
+#rock-paper-scissors {
+  background-image: url(../images/rps-bg.jpg);
+}
 #tour-ireland {
     background-image: url(../images/travel-ireland.jpg);
 }
@@ -133,12 +139,6 @@ margin-right: 0px !important;
 }
 #prework {
     background-image: url(../images/notebooks.jpg);
-}
-#placeholder2 {
-    background-image: url(../images/placeholder-2.jpg);
-}
-#placeholder3 {
-    background-image: url(../images/placeholder-3.jpg);
 }
 #placeholder4 {
     background-image: url(../images/placeholder-4.jpg);
