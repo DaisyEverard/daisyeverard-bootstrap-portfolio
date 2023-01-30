@@ -125,24 +125,6 @@ margin-right: 0px !important;
     box-shadow:  5px 5px rgb(138, 80, 0); 
 }
 
-#financial-analysis {
-  background-image: url(../images/financial-bg.jpg);
-}
-#rock-paper-scissors {
-  background-image: url(../images/rps-bg.jpg);
-}
-#tour-ireland {
-    background-image: url(../images/travel-ireland.jpg);
-}
-#landing-page {
-    background-image: url(../images/misty-forest-tobias-tullius-RhjVGxILcqE-unsplash.jpg);
-}
-#prework {
-    background-image: url(../images/notebooks.jpg);
-}
-#placeholder4 {
-    background-image: url(../images/placeholder-4.jpg);
-}
 /* skills */
 #skills {
     background-color: var(--color-blue-main);
