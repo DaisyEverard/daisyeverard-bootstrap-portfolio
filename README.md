@@ -7,12 +7,21 @@ https://daisyeverard.github.io/daisyeverard-bootstrap-portfolio/
 ## Preview
 
 <p align="center">
-  <img src="./images/preview.png" width="500" alt="screenshot of site">
+  <img src="./assets/images/preview.png" width="500" alt="screenshot of site">
 </p>
 
 ## Description
 
 A portfolio created using bootstrap to display and link to other projects I have completed. This was created as a resource for job searching to show employers what I have created in a collated and interactive way.
+
+## Table of Contents
+
+- [Sitemap](#sitemap)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Issues and Solutions](#issues-and-solutions)
+- [Acknowledgements](#acknowledgements)
+- [Contacts](#contacts)
 
 ## Sitemap
 
@@ -21,6 +30,16 @@ A portfolio created using bootstrap to display and link to other projects I have
 3. 'skills' section talking about skills I have learned, what else I'm learning now and in the future, and my goals. 
 4. 'About Me' and 'Contacts' sections with some information about me and an email, Linked In, and GitHub links. The email is not a link, but is set to user-select: all; for ease of copying. 
 5. Footer with copyright declaration
+
+## Usage
+
+To view any of the projects that interest you, click on the `Take a Look` button to be redirected to the built site. 
+
+## Technologies
+
+- HTML
+- CSS
+- Bootstrap
 
 ## Issues and Solutions
 
@@ -54,3 +73,13 @@ The margin set by bootstrap on the rows was causing overflow. To override bootst
 
  Background images from unsplash.com
  Placeholder images from EdX
+ 
+## Contacts
+
+- GitHub: [DaisyEverard](https://github.com/DaisyEverard)
+- LinkedIn: [daisy-everard](https://www.linkedin.com/in/daisy-everard/)
+- Email: msdeverard@gmail.com
+
+ ## License
+ 
+ MIT License
