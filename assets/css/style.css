@@ -1,6 +1,7 @@
 :root {
     --color-black-bg:  rgba(0,0,0, 0.5);
     --color-blue-main: rgb(9, 9, 159);
+    --color-orange-main: rgb(253 148 0); 
 }
 
 body {
@@ -24,11 +25,18 @@ margin-right: 0px !important;
     background-size: cover;
 }
 
+.profile-img-div {
+    width: 238px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(54deg, var(--color-orange-main), var(--color-blue-main));
+    border-radius: 50%;
+}
 .jumbotron img {
     border-radius: 50%;
-    width: 100%;
     max-height: 250px;
-    max-width: 250px;
 }
 
 /* navbar */
@@ -119,8 +127,8 @@ margin-right: 0px !important;
     transition: all 0.3s ease-in-out 0s;
 }
 .card .btn:hover {
-    background-color: rgb(253 148 0);
-    border: 2px solid rgb(253 148 0);
+    background-color: var(--color-orange-main);
+    border: 2px solid var(--color-orange-main);
     color: black; 
     box-shadow:  5px 5px rgb(138, 80, 0); 
 }
@@ -153,6 +161,7 @@ margin-right: 0px !important;
     background-image:url(../images/about-bg.jpg);
     color: white; 
     max-width: 100%;
+    text-align: right;
 }
 #contacts {
     background-image: url(../images/contacts-bg.jpg); 
